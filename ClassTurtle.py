@@ -1,27 +1,27 @@
-class Turtle: # Python 中的类名约定以大写字母开头
-    """关于类的一个简单例子"""
-    # 属性
+class Turtle: # Python class should use First Upper letter
+    """A simple class"""
+    # Properties
     color = 'green'
     weight = 10
     legs = 4
     shell = True
-    mouth = '大嘴'
+    mouth = 'BigMouth'
 
-    # 方法
+    # Method
     def climb(self):
-        print("我正在很努力的向前爬......")
+        print("I am climbing......")
 
     def run(self):
-        print("我正在飞快的向前跑......")
+        print("I am running......")
 
     def bite(self):
-        print("咬死你咬死你！！")
+        print("Bite you!")
 
     def eat(self):
-        print("有得吃，真满足^_^")
+        print("So happy I have something to eat^_^")
 
     def sleep(self):
-        print("困了，睡了，晚安，Zzzz")
+        print("Good night, Zzzz")
 a = Turtle()
 a.climb()
 a.run()
