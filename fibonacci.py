@@ -23,7 +23,7 @@ if result != -1:
     print('There are totally %d rabbit born! ' % result)
 
 
-# fibonacci 1
+# fibonacci 2
 
 def fab(n):
     if n < 1:
