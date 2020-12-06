@@ -4,6 +4,8 @@ Plotting is an essential skill for Engineers. Plots can reveal trends in data an
 
 > pip install matplotlib
 > pip install numpy
+
+
 If you are using the Anaconda distribution of Python (which is the distribution of Python I recommend for undergraduate engineers) matplotlib and numpy (plus a bunch of other libraries useful for engineers) are included. If you are using Anaconda, you do not need to install any additional packages to use matplotlib.
 
 In this post, we are going to build a couple of plots which show the trig functions sine and cosine. We'll start by importing matplotlib and numpy using the standard lines import matplotlib.pyplot as plt and import numpy as np. This means we can use the short alias plt and np when we call these two libraries. You could import numpy as wonderburger and use wonderburger.sin() to call the numpy sine function, but this would look funny to other engineers. The line import numpy as np has become a common convention and will look familiar to other engineers using Python. In case you are working in a Juypiter notebook, the %matplotlib inline command is also necessary to view the plots directly in the notebook.
