@@ -18,6 +18,7 @@ In [1]:
 >import numpy as np
 ```
 # if using a jupyter notebook
+
 %matplotlib inline    
 Next we will build a set of x values from zero to 4π in increments of 0.1 radians to use in our plot. The x-values are stored in a numpy array. Numpy's arange() function has three arguments: start, stop, step. We start at zero, stop at 4π and step by 0.1 radians. Then we define a variable y as the sine of x using numpy's sin() function.
 
@@ -93,3 +94,5 @@ Plotting a stress-strain curve with four libraries: matplotlib, pandas, altair a
 Solving a Circuit Diagram Problem with Python and SchemDraw
 My first Twitch Stream: S01-E01 JupyterHub Intro and Tools
 Hear my story about deploying JupyterHub on the Running in Production Podcast
+
+*Source: https://pythonforundergradengineers.com/plotting-sin-cos-with-matplotlib.html
